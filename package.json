@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/theoc2a/pwa-pratique/issues"
   },
-  "homepage": "https://github.com/theoc2a/pwa-pratique#readme"
+  "homepage": "https://github.com/theoc2a/pwa-pratique#readme",
+  "dependencies": {
+    "web-push": "^3.4.4"
+  }
 }
