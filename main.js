@@ -29,3 +29,26 @@ if(navigator.serviceWorker) {
         .register('sw.js')
         .catch(err => console.error('service worker NON enregistré', err));
 }
+/*
+if(window.Notification && window.Notification !== "denied"){
+    // demande une permission
+    Notification.requestPermission(perm => {
+        // vérifie si la permission est acceptée par l'utilisateur
+        // 3 valeurs possibles : default | granted | denied
+        if (perm === "granted") {
+
+            const options = {
+                body: "Body de la notification",
+                icon: "images/icons/icon-72x72.png"
+            }
+          	console.log("Notification acceptée");
+            // On crée une nouvelle notification
+            const notif = new Notification("Hello notification", options);
+        }
+        else{
+            // Notification refusée
+            console.log("Notification refusée");
+        }
+    })
+    
+}*/
